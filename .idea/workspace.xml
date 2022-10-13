@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dc72577-506b-4f08-9dfb-2221cccd3b7b" name="Changes" comment="Linter">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlowerStore/FlowerColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlowerStore/FlowerColor.java" afterDir="false" />
-    </list>
+    <list default="true" id="6dc72577-506b-4f08-9dfb-2221cccd3b7b" name="Changes" comment="Chamomile and Tulip added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665642149750</updated>
       <workItem from="1665642151632" duration="200000" />
-      <workItem from="1665642354809" duration="6208000" />
+      <workItem from="1665642354809" duration="6522000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1665643159106</created>
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665651111041</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Chamomile and Tulip added">
+      <created>1665651793842</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665651793842</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +197,7 @@
     <MESSAGE value="Tests Fix" />
     <MESSAGE value="Workflow update" />
     <MESSAGE value="Linter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linter" />
+    <MESSAGE value="Chamomile and Tulip added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chamomile and Tulip added" />
   </component>
 </project>
