@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dc72577-506b-4f08-9dfb-2221cccd3b7b" name="Changes" comment="Flowers Start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlowerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="6dc72577-506b-4f08-9dfb-2221cccd3b7b" name="Changes" comment="Workflow update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665642149750</updated>
       <workItem from="1665642151632" duration="200000" />
-      <workItem from="1665642354809" duration="5141000" />
+      <workItem from="1665642354809" duration="5604000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1665643159106</created>
@@ -151,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665645125996</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tests Fix">
+      <created>1665650588483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665650588483</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Workflow update">
+      <created>1665650657476</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665650657476</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +180,8 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Workflow" />
     <MESSAGE value="Flowers Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flowers Start" />
+    <MESSAGE value="Tests Fix" />
+    <MESSAGE value="Workflow update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workflow update" />
   </component>
 </project>
