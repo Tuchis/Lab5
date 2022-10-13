@@ -14,14 +14,14 @@ class FlowerTest {
     }
 
     @Test
-    private void testPrice() {
+    public void testPrice() {
         int price = 20;
         flower.setPrice(price);
         assertEquals(price, flower.getPrice());
     }
 
     @Test
-    private void testColor() {
+    public void testColor() {
         FlowerColor price = FlowerColor.RED;
         flower.setColor(price);
         assertEquals("#FF0000", flower.getColor());
