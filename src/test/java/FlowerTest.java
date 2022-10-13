@@ -1,3 +1,5 @@
+import FlowerStore.Flower;
+import FlowerStore.FlowerColor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
