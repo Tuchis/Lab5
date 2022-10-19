@@ -23,7 +23,8 @@ public enum FlowerColor {
      *
      * @param colorer
      */
-    FlowerColor(final String colorer) {this.color = colorer;
+    FlowerColor(final String colorer) {
+        this.color = colorer;
     }
 
     /**
