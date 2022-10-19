@@ -1,4 +1,4 @@
-package FlowerStore;
+package flower.store;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,11 +47,8 @@ public class FlowerBucket {
         if (flowerSpec.getAmount() == amount){
             return true;
         }
-        else{
+        else {
             return false;
         }
-
-
     }
-
 }

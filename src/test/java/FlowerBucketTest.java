@@ -1,7 +1,7 @@
-import FlowerStore.Flower;
-import FlowerStore.FlowerBucket;
-import FlowerStore.FlowerPack;
-import FlowerStore.Rose;
+import flower.store.Flower;
+import flower.store.FlowerBucket;
+import flower.store.FlowerPack;
+import flower.store.Rose;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;

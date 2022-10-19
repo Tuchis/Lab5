@@ -1,4 +1,4 @@
-package FlowerStore;
+package flower.store;
 
 public class FlowerPack {
     private Flower flower;
@@ -8,7 +8,7 @@ public class FlowerPack {
         this.flower = flower;
         this.amount = quantity;
     }
-    public String getType(){return this.flower.getClass().getSimpleName();};
+    public String getType(){ return this.flower.getClass().getSimpleName(); };
     public int getPrice(){
         return this.amount * this.flower.getPrice();
     }

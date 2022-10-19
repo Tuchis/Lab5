@@ -1,4 +1,8 @@
-import FlowerStore.*;
+import flower.store.Flower;
+import flower.store.FlowerBucket;
+import flower.store.FlowerPack;
+import flower.store.Rose;
+
 public class Main {
     public static void main(String[] args) {
         Flower flower = new Rose();
