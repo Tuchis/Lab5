@@ -2,13 +2,16 @@ package flower.store;
 
 public class FlowerPack {
     /**
-     * FLowerPack class
+     * FLowerPack class.
      */
     private Flower flower;
+    /**
+     * Amount.
+     */
     private int amount;
 
     /**
-     * FlowerPack init
+     * FlowerPack init.
      *
      * @param flower
      * @param quantity
@@ -19,7 +22,7 @@ public class FlowerPack {
     }
 
     /**
-     * Gettype
+     * Gettype.
      *
      * @return String
      */
@@ -30,7 +33,7 @@ public class FlowerPack {
     ;
 
     /**
-     * Getprice
+     * Getprice.
      *
      * @return int
      */
@@ -39,7 +42,7 @@ public class FlowerPack {
     }
 
     /**
-     * Getcolor
+     * Getcolor.
      *
      * @return String
      */
@@ -48,7 +51,7 @@ public class FlowerPack {
     }
 
     /**
-     * Getamount
+     * Getamount.
      *
      * @return int
      */

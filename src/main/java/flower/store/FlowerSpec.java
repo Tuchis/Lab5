@@ -8,14 +8,20 @@ import java.util.List;
 @Getter
 public class FlowerSpec {
     /**
-     * FlowerSpec
+     * FlowerSpec.
      */
     private int amount;
+    /**
+     * FlowerColor.
+     */
     private FlowerColor color;
+    /**
+     * FlowersTypes.
+     */
     private List<String> flowersTypes = new ArrayList<String>();
 
     /**
-     * GetColor
+     * GetColor.
      *
      * @return String
      */
@@ -24,13 +30,14 @@ public class FlowerSpec {
     }
 
     /**
-     * FlowerSpec init
+     * FlowerSpec init.
      *
      * @param amount
      * @param color
      * @param flowersTypes
      */
-    public FlowerSpec(int amount, FlowerColor color, List<String> flowersTypes) {
+    public FlowerSpec(int amount, FlowerColor color,
+                      List<String> flowersTypes) {
         this.amount = amount;
         this.color = color;
         this.flowersTypes = flowersTypes;

@@ -7,8 +7,14 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class StoreTest {
+    /**
+     * StoreTest.
+     */
     private Store store;
 
+    /**
+     * Init of tests.
+     */
     @BeforeEach
     public void init() {
         store = new Store();
@@ -21,21 +27,31 @@ class StoreTest {
         store.add(flowerBucket);
     }
 
+    /**
+     * TestSearch.
+     */
     @Test
     public void testSearch() {
-        FlowerSpec flowerSpec = new FlowerSpec(10, FlowerColor.BLUE, Arrays.asList("Rose", "Tulip"));
+        FlowerSpec flowerSpec = new FlowerSpec(10,
+                FlowerColor.BLUE, Arrays.asList("Rose", "Tulip"));
         assertEquals(true, store.search(flowerSpec));
     }
 
+    /**
+     * TestSearchFail.
+     */
     @Test
     public void testSearch_fail() {
-        FlowerSpec flowerSpec = new FlowerSpec(20, FlowerColor.BLUE, Arrays.asList("Rose", "Tulip"));
+        FlowerSpec flowerSpec = new FlowerSpec(20,
+                FlowerColor.BLUE, Arrays.asList("Rose", "Tulip"));
         assertEquals(false, store.search(flowerSpec));
 
-        flowerSpec = new FlowerSpec(10, FlowerColor.RED, Arrays.asList("Rose", "Tulip"));
+        flowerSpec = new FlowerSpec(10, FlowerColor.RED,
+                Arrays.asList("Rose", "Tulip"));
         assertEquals(false, store.search(flowerSpec));
 
-        flowerSpec = new FlowerSpec(10, FlowerColor.BLUE, Arrays.asList("Chamomile"));
+        flowerSpec = new FlowerSpec(10, FlowerColor.BLUE,
+                Arrays.asList("Chamomile"));
         assertEquals(false, store.search(flowerSpec));
     }
 

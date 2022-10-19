@@ -6,13 +6,22 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class FlowerTest {
+    /**
+     * Flower.
+     */
     private Flower flower;
 
+    /**
+     * Init.
+     */
     @BeforeEach
     public void init() {
         flower = new Flower();
     }
 
+    /**
+     * TestPrice.
+     */
     @Test
     public void testPrice() {
         int price = 20;
@@ -20,6 +29,9 @@ class FlowerTest {
         assertEquals(price, flower.getPrice());
     }
 
+    /**
+     * TestColor.
+     */
     @Test
     public void testColor() {
         FlowerColor price = FlowerColor.RED;

@@ -2,7 +2,7 @@ package flower.store;
 
 public class Tulip extends Flower {
     /**
-     * Tulip class
+     * Tulip class.
      */
     public Tulip() {
         super();

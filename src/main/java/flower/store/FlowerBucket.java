@@ -5,15 +5,12 @@ import java.util.List;
 
 public class FlowerBucket {
     /**
-     * FlowerBucket class
-     */
-    /**
-     * FlowerPacks
+     * FlowerPacks.
      */
     private List<FlowerPack> flowerPacks = new ArrayList<FlowerPack>();
 
     /**
-     * Add flower packs
+     * Add flower packs.
      *
      * @param flowerPack
      */
@@ -22,7 +19,7 @@ public class FlowerBucket {
     }
 
     /**
-     * Getprice
+     * Getprice.
      *
      * @return int
      */
@@ -35,10 +32,10 @@ public class FlowerBucket {
     }
 
     /**
-     * Check if desirable pack or not
+     * Check if desirable pack or not.
      *
      * @param flowerSpec
-     * @return
+     * @return boolean
      */
     public boolean isDesirable(FlowerSpec flowerSpec) {
         boolean flagType = false;
@@ -65,10 +62,6 @@ public class FlowerBucket {
         for (FlowerPack pack : flowerPacks) {
             amount += pack.getAmount();
         }
-        if (flowerSpec.getAmount() == amount) {
-            return true;
-        } else {
-            return false;
-        }
+        return flowerSpec.getAmount() == amount;
     }
 }

@@ -4,11 +4,18 @@ import flower.store.FlowerPack;
 import flower.store.Rose;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FlowerBucketTest {
+    /**
+     * FLowerbucket.
+     */
     private FlowerBucket flowerBucket;
 
+    /**
+     * BeforeEach.
+     */
     @BeforeEach
     public void init() {
         Flower flower = new Rose();
@@ -18,6 +25,9 @@ public class FlowerBucketTest {
         flowerBucket.add(flowerPack);
     }
 
+    /**
+     * Test1.
+     */
     @Test
     public void testPrice() {
         assertEquals(100, flowerBucket.getPrice());

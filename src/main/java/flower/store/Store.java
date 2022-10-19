@@ -5,15 +5,18 @@ import java.util.List;
 
 public class Store {
     /**
-     * Store class
+     * Store class.
      */
     private List<FlowerBucket> flowerBuckets = new ArrayList<FlowerBucket>();
 
+    /**
+     * Store init
+     */
     public Store() {
     }
 
     /**
-     * Add
+     * Add.
      *
      * @param flowerBucket
      */
@@ -22,7 +25,7 @@ public class Store {
     }
 
     /**
-     * Search function
+     * Search function.
      *
      * @param flowerSpec
      * @return boolean
