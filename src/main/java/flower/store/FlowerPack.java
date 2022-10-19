@@ -16,7 +16,7 @@ public class FlowerPack {
      * @param flower
      * @param quantity
      */
-    public FlowerPack(Flower flower, int quantity) {
+    public FlowerPack(final Flower flower, final int quantity) {
         this.flower = flower;
         this.amount = quantity;
     }
@@ -29,8 +29,6 @@ public class FlowerPack {
     public String getType() {
         return this.flower.getClass().getSimpleName();
     }
-
-    ;
 
     /**
      * Getprice.

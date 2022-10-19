@@ -1,4 +1,4 @@
 /**
- * Package info
+ * Package info.
  */
 package flower.store;

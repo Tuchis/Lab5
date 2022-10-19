@@ -36,8 +36,8 @@ public class FlowerSpec {
      * @param color
      * @param flowersTypes
      */
-    public FlowerSpec(int amount, FlowerColor color,
-                      List<String> flowersTypes) {
+    public FlowerSpec(final int amount, final FlowerColor color,
+                      final List<String> flowersTypes) {
         this.amount = amount;
         this.color = color;
         this.flowersTypes = flowersTypes;

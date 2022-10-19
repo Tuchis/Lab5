@@ -14,7 +14,7 @@ public class FlowerBucket {
      *
      * @param flowerPack
      */
-    public void add(FlowerPack flowerPack) {
+    public void add(final FlowerPack flowerPack) {
         this.flowerPacks.add(flowerPack);
     }
 
@@ -37,7 +37,7 @@ public class FlowerBucket {
      * @param flowerSpec
      * @return boolean
      */
-    public boolean isDesirable(FlowerSpec flowerSpec) {
+    public boolean isDesirable(final FlowerSpec flowerSpec) {
         boolean flagType = false;
         for (FlowerPack pack : flowerPacks) {
             if (flowerSpec.getFlowersTypes().contains(pack.getType())) {

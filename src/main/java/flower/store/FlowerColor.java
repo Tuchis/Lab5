@@ -2,9 +2,6 @@ package flower.store;
 
 public enum FlowerColor {
     /**
-     * FLowerColor enum.
-     */
-    /**
      * Red color.
      */
     RED("#FF0000"),
@@ -16,6 +13,9 @@ public enum FlowerColor {
      * Blue color.
      */
     BLUE("#0000FF");
+    /**
+     * Color.
+     */
     private String color;
 
     /**
@@ -23,7 +23,7 @@ public enum FlowerColor {
      *
      * @param color
      */
-    FlowerColor(String color) {
+    FlowerColor(final String color) {
         this.color = color;
     }
 

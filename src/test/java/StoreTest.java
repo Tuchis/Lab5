@@ -1,4 +1,10 @@
-import flower.store.*;
+import flower.store.Flower;
+import flower.store.FlowerBucket;
+import flower.store.FlowerPack;
+import flower.store.Store;
+import flower.store.FlowerColor;
+import flower.store.FlowerSpec;
+import flower.store.Rose;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -10,7 +10,7 @@ public class Store {
     private List<FlowerBucket> flowerBuckets = new ArrayList<FlowerBucket>();
 
     /**
-     * Store init
+     * Store init.
      */
     public Store() {
     }
@@ -20,7 +20,7 @@ public class Store {
      *
      * @param flowerBucket
      */
-    public void add(FlowerBucket flowerBucket) {
+    public void add(final FlowerBucket flowerBucket) {
         flowerBuckets.add(flowerBucket);
     }
 
@@ -30,7 +30,7 @@ public class Store {
      * @param flowerSpec
      * @return boolean
      */
-    public boolean search(FlowerSpec flowerSpec) {
+    public boolean search(final FlowerSpec flowerSpec) {
         for (FlowerBucket flowerBucket : flowerBuckets) {
             if (flowerBucket.isDesirable(flowerSpec)) {
                 return true;
