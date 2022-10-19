@@ -1,7 +1,10 @@
-package FlowerStore;
+package flower.store;
 
 public class Rose extends Flower {
-    public Rose(){
+    /**
+     * Rose init.
+     */
+    public Rose() {
         super();
         this.setColor(FlowerColor.RED);
     }

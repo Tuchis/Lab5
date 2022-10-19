@@ -1,29 +1,47 @@
-import FlowerStore.Flower;
-import FlowerStore.FlowerColor;
+import flower.store.Flower;
+import flower.store.FlowerColor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class FlowerTest {
-    private Flower flower;
 
+
+class FlowerTest {
+
+    /**
+     * Flower.
+     */
+    private Flower flower;
+    /**
+     * Const.
+     */
+    public static final int PRICE = 20;
+
+    /**
+     * Init.
+     */
     @BeforeEach
     public void init() {
         flower = new Flower();
     }
 
+    /**
+     * TestPrice.
+     */
     @Test
     public void testPrice() {
-        int price = 20;
-        flower.setPrice(price);
-        assertEquals(price, flower.getPrice());
+        flower.setPrice(PRICE);
+        assertEquals(PRICE, flower.getPrice());
     }
 
+    /**
+     * TestColor.
+     */
     @Test
     public void testColor() {
-        FlowerColor price = FlowerColor.RED;
-        flower.setColor(price);
+        FlowerColor color = FlowerColor.RED;
+        flower.setColor(color);
         assertEquals("#FF0000", flower.getColor());
     }
 }
