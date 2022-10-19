@@ -13,11 +13,11 @@ public class FlowerPack {
     /**
      * FlowerPack init.
      *
-     * @param flower
+     * @param flowerer
      * @param quantity
      */
-    public FlowerPack(final Flower flower, final int quantity) {
-        this.flower = flower;
+    public FlowerPack(final Flower flowerer, final int quantity) {
+        this.flower = flowerer;
         this.amount = quantity;
     }
 

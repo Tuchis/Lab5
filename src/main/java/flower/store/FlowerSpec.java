@@ -32,14 +32,14 @@ public class FlowerSpec {
     /**
      * FlowerSpec init.
      *
-     * @param amount
-     * @param color
-     * @param flowersTypes
+     * @param amounter
+     * @param colorer
+     * @param flowersTypeser
      */
-    public FlowerSpec(final int amount, final FlowerColor color,
-                      final List<String> flowersTypes) {
-        this.amount = amount;
-        this.color = color;
-        this.flowersTypes = flowersTypes;
+    public FlowerSpec(final int amounter, final FlowerColor colorer,
+                      final List<String> flowersTypeser) {
+        this.amount = amounter;
+        this.color = colorer;
+        this.flowersTypes = flowersTypeser;
     }
 }

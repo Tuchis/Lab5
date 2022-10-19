@@ -55,7 +55,7 @@ class StoreTest {
      * TestSearchFail.
      */
     @Test
-    public void testSearch_fail() {
+    public void testSearchFail() {
         FlowerSpec flowerSpec = new FlowerSpec(CONST_TWEN,
                 FlowerColor.BLUE, Arrays.asList("Rose", "Tulip"));
         assertEquals(false, store.search(flowerSpec));
@@ -68,12 +68,4 @@ class StoreTest {
                 Arrays.asList("Chamomile"));
         assertEquals(false, store.search(flowerSpec));
     }
-
-
-//    @Test
-//    public void testColor() {
-//        FlowerColor price = FlowerColor.RED;
-//        flower.setColor(price);
-//        assertEquals("#FF0000", flower.getColor());
-//    }
 }

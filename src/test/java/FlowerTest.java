@@ -14,7 +14,7 @@ class FlowerTest {
      */
     private Flower flower;
     /**
-     * Const
+     * Const.
      */
     public static final int PRICE = 20;
 

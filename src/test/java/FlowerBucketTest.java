@@ -15,7 +15,7 @@ public class FlowerBucketTest {
     /**
      * Const.
      */
-    public static int CONST = 10;
+    public static final int PRICE = 20;
 
     /**
      * BeforeEach.
@@ -23,8 +23,8 @@ public class FlowerBucketTest {
     @BeforeEach
     public void init() {
         Flower flower = new Rose();
-        flower.setPrice(CONST);
-        FlowerPack flowerPack = new FlowerPack(flower, CONST);
+        flower.setPrice(PRICE);
+        FlowerPack flowerPack = new FlowerPack(flower, PRICE);
         flowerBucket = new FlowerBucket();
         flowerBucket.add(flowerPack);
     }
@@ -34,7 +34,7 @@ public class FlowerBucketTest {
      */
     @Test
     public void testPrice() {
-        int value = CONST * 10;
+        int value = PRICE * PRICE;
         assertEquals(value, flowerBucket.getPrice());
     }
 
