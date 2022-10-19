@@ -1,7 +1,10 @@
 package flower.store;
 
 public class Tulip extends Flower {
-    public Tulip(){
+    /**
+     * Tulip class
+     */
+    public Tulip() {
         super();
         this.setColor(FlowerColor.BLUE);
     }

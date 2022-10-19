@@ -1,21 +1,58 @@
 package flower.store;
 
 public class FlowerPack {
+    /**
+     * FLowerPack class
+     */
     private Flower flower;
     private int amount;
 
-    public FlowerPack(Flower flower, int quantity){
+    /**
+     * FlowerPack init
+     *
+     * @param flower
+     * @param quantity
+     */
+    public FlowerPack(Flower flower, int quantity) {
         this.flower = flower;
         this.amount = quantity;
     }
-    public String getType(){ return this.flower.getClass().getSimpleName(); };
-    public int getPrice(){
+
+    /**
+     * Gettype
+     *
+     * @return String
+     */
+    public String getType() {
+        return this.flower.getClass().getSimpleName();
+    }
+
+    ;
+
+    /**
+     * Getprice
+     *
+     * @return int
+     */
+    public int getPrice() {
         return this.amount * this.flower.getPrice();
     }
-    public String getColor(){
+
+    /**
+     * Getcolor
+     *
+     * @return String
+     */
+    public String getColor() {
         return this.flower.getColor();
     }
-    public int getAmount(){
+
+    /**
+     * Getamount
+     *
+     * @return int
+     */
+    public int getAmount() {
         return this.amount;
     }
 }

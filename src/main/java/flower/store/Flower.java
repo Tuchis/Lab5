@@ -5,18 +5,23 @@ import lombok.Setter;
 
 @Getter@Setter
 public class Flower {
-    /*
-    / Javadoc
-    */
+    /**
+     * Flower class
+     */
     private int price;
-    /*
-    / Javadoc
-    */
+    /**
+     * Price and sepallength
+     */
     private int sepalLength;
+    /**
+     * Color of flower
+     */
     private FlowerColor color;
-    /*
-    / Flower class
-    */
+
+    /**
+     * Getcolor
+     * @return String
+     */
     public String getColor(){
         return color.getColor();
     }
