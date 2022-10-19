@@ -5,11 +5,18 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
+
 class FlowerTest {
+
     /**
      * Flower.
      */
     private Flower flower;
+    /**
+     * Const
+     */
+    public static final int PRICE = 20;
 
     /**
      * Init.
@@ -24,9 +31,8 @@ class FlowerTest {
      */
     @Test
     public void testPrice() {
-        int price = 20;
-        flower.setPrice(price);
-        assertEquals(price, flower.getPrice());
+        flower.setPrice(PRICE);
+        assertEquals(PRICE, flower.getPrice());
     }
 
     /**
@@ -34,8 +40,8 @@ class FlowerTest {
      */
     @Test
     public void testColor() {
-        FlowerColor price = FlowerColor.RED;
-        flower.setColor(price);
+        FlowerColor color = FlowerColor.RED;
+        flower.setColor(color);
         assertEquals("#FF0000", flower.getColor());
     }
 }

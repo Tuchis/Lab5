@@ -12,6 +12,10 @@ public class FlowerBucketTest {
      * FLowerbucket.
      */
     private FlowerBucket flowerBucket;
+    /**
+     * Const.
+     */
+    public static int CONST = 10;
 
     /**
      * BeforeEach.
@@ -19,8 +23,8 @@ public class FlowerBucketTest {
     @BeforeEach
     public void init() {
         Flower flower = new Rose();
-        flower.setPrice(10);
-        FlowerPack flowerPack = new FlowerPack(flower, 10);
+        flower.setPrice(CONST);
+        FlowerPack flowerPack = new FlowerPack(flower, CONST);
         flowerBucket = new FlowerBucket();
         flowerBucket.add(flowerPack);
     }
@@ -30,7 +34,8 @@ public class FlowerBucketTest {
      */
     @Test
     public void testPrice() {
-        assertEquals(100, flowerBucket.getPrice());
+        int value = CONST * 10;
+        assertEquals(value, flowerBucket.getPrice());
     }
 
 }

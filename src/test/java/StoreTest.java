@@ -17,6 +17,14 @@ class StoreTest {
      * StoreTest.
      */
     private Store store;
+    /**
+     * Const 1.
+     */
+    public static final int CONST_TWEN = 20;
+    /**
+     * Const 2.
+     */
+    public static final int CONST_TEN = 10;
 
     /**
      * Init of tests.
@@ -25,9 +33,9 @@ class StoreTest {
     public void init() {
         store = new Store();
         Flower flower = new Rose();
-        flower.setPrice(20);
+        flower.setPrice(CONST_TWEN);
         flower.setColor(FlowerColor.BLUE);
-        FlowerPack flowerPack = new FlowerPack(flower, 10);
+        FlowerPack flowerPack = new FlowerPack(flower, CONST_TEN);
         FlowerBucket flowerBucket = new FlowerBucket();
         flowerBucket.add(flowerPack);
         store.add(flowerBucket);
@@ -38,7 +46,7 @@ class StoreTest {
      */
     @Test
     public void testSearch() {
-        FlowerSpec flowerSpec = new FlowerSpec(10,
+        FlowerSpec flowerSpec = new FlowerSpec(CONST_TEN,
                 FlowerColor.BLUE, Arrays.asList("Rose", "Tulip"));
         assertEquals(true, store.search(flowerSpec));
     }
@@ -48,15 +56,15 @@ class StoreTest {
      */
     @Test
     public void testSearch_fail() {
-        FlowerSpec flowerSpec = new FlowerSpec(20,
+        FlowerSpec flowerSpec = new FlowerSpec(CONST_TWEN,
                 FlowerColor.BLUE, Arrays.asList("Rose", "Tulip"));
         assertEquals(false, store.search(flowerSpec));
 
-        flowerSpec = new FlowerSpec(10, FlowerColor.RED,
+        flowerSpec = new FlowerSpec(CONST_TEN, FlowerColor.RED,
                 Arrays.asList("Rose", "Tulip"));
         assertEquals(false, store.search(flowerSpec));
 
-        flowerSpec = new FlowerSpec(10, FlowerColor.BLUE,
+        flowerSpec = new FlowerSpec(CONST_TEN, FlowerColor.BLUE,
                 Arrays.asList("Chamomile"));
         assertEquals(false, store.search(flowerSpec));
     }
