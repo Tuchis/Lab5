@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dc72577-506b-4f08-9dfb-2221cccd3b7b" name="Changes" comment="Linter check #5">
+    <list default="true" id="6dc72577-506b-4f08-9dfb-2221cccd3b7b" name="Changes" comment="Linter check #7&#10;It has to be last time :+)">
+      <change afterPath="$PROJECT_DIR$/.github/linters/.jscpd.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower/store/FlowerColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower/store/FlowerColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flower/store/FlowerPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flower/store/FlowerPack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlowerBucketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlowerBucketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlowerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +127,7 @@
       <updated>1665642149750</updated>
       <workItem from="1665642151632" duration="200000" />
       <workItem from="1665642354809" duration="6522000" />
-      <workItem from="1666205922659" duration="8402000" />
+      <workItem from="1666205922659" duration="9323000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1665643159106</created>
@@ -231,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666212763058</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Linter check #6&#10;Hope to get ;=)">
+      <created>1666214940202</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666214940202</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Linter check #7&#10;It has to be last time :+)">
+      <created>1666215171890</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666215171890</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +273,9 @@
     <MESSAGE value="Linter check #3" />
     <MESSAGE value="Linter check #4" />
     <MESSAGE value="Linter check #5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linter check #5" />
+    <MESSAGE value="Linter check #6&#10;Hope to get ;=)" />
+    <MESSAGE value="Linter check #7&#10;It has to be last time :+)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linter check #7&#10;It has to be last time :+)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
